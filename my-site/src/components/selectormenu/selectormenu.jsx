@@ -1,13 +1,12 @@
 import React, { Component, useCallback } from 'react';
-import Selectormenu from '../selectormenu/selectormenu';
-import './header.css';
 
 
 
 
 
 
-export default class Header extends Component{
+
+export default class Selectormenu extends Component{
 
   constructor(props)
   {
@@ -32,15 +31,6 @@ export default class Header extends Component{
     return(
     <div>
 
-
-
-    
-      <h1 class="header" >Daniel Adolfsson</h1>
-
-      <Selectormenu></Selectormenu>
-    
-    
-    
     
     </div>)
   }
