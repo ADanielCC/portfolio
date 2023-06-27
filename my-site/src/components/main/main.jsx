@@ -4,6 +4,7 @@ import React, { Component, useCallback } from 'react';
 
 import Header from '../header/header.jsx';
 import Contenthandler from '../contenthandler/contenthandler.jsx';
+import Footer from '../footer/footer.jsx';
 
 
 
@@ -30,11 +31,12 @@ export default class Main extends Component{
    
 
     return(
-    <div id ="temp" >
+    <div >
 
-      YOOOO 
+      
          <Header></Header>
          <Contenthandler></Contenthandler>
+         <Footer></Footer>
 
 
     

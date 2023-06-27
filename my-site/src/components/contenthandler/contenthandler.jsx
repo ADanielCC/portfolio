@@ -41,8 +41,11 @@ export default class Contenthandler extends Component{
       
       <div>
       <h3>Contact info</h3>
-
-        Email: daniel.adolfsson.93@gmail.com
+      
+       <div> <a href="https://github.com/ADanielCC">GIT</a></div>
+       <div> <a href="mailto:daniel.adolfsson.93@gmail.com">Email </a></div>
+       
+        
       </div>      
     
     </div>)
