@@ -1,5 +1,5 @@
 import React, { Component, useCallback } from 'react';
-
+import { useRef } from 'react';
 
 
 import Header from '../header/header.jsx';
@@ -17,6 +17,10 @@ export default class Main extends Component{
   }
 
   state = {
+    currentContent: [],
+
+
+
 
   }
 

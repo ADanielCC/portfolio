@@ -31,7 +31,12 @@ export default class Contenthandler extends Component{
 
     return(
     <div class="wrapper">
-      <div class="contentbox">
+
+
+
+
+      
+      <div class="contentbox" id="projects">
       <h3>Projects</h3>
       <div><a href="">På god tass</a></div>
       </div>
