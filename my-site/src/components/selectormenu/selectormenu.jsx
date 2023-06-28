@@ -1,8 +1,5 @@
 import React, { Component, useCallback } from 'react';
-
-
-
-
+import './selectormenu.css';
 
 
 
@@ -29,7 +26,9 @@ export default class Selectormenu extends Component{
    
 
     return(
-    <div>
+    <div >
+
+      <div class="prevent-select">
       <ol>
         <li>Daniel.A</li>
         <li>Projects</li>
@@ -37,7 +36,7 @@ export default class Selectormenu extends Component{
         <li>Contact</li>
         
       </ol>
-
+      </div>
     
     </div>)
   }

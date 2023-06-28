@@ -35,9 +35,9 @@ export default class Header extends Component{
 
 
       <div>
-      <h1 class="header" >Daniel Adolfsson</h1>
+      <h1 class="header noselect" >Daniel Adolfsson</h1>
 
-      <div class="selector">
+      <div class="selector noselect">
       <Selectormenu ></Selectormenu>
       </div>
       
