@@ -28,14 +28,14 @@ export default class Selectormenu extends Component{
     return(
     <div >
 
-      <div class="prevent-select">
-      <ol>
-        <li>Daniel.A</li>
-        <li>Projects</li>
-        <li>Skills</li>
-        <li>Contact</li>
+      <div class="prevent-select hide-bullet">
+      <ul>
+        <li class="hover-effect" >Daniel.A</li>
+        <li class="hover-effect" >Projects</li>
+        <li class="hover-effect" >Skills</li>
+        <li class="hover-effect" >Contact</li>
         
-      </ol>
+      </ul>
       </div>
     
     </div>)
