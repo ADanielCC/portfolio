@@ -2,6 +2,17 @@
     background-color: rgba(88, 88, 88, 0.377);
     height: 160px;
     width: 100%;
+    position: relative;
 
 
+}
+
+.selector{
+    
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
 }

@@ -34,11 +34,14 @@ export default class Header extends Component{
 
 
 
-    
+      <div>
       <h1 class="header" >Daniel Adolfsson</h1>
 
-      <Selectormenu></Selectormenu>
-    
+      <div class="selector">
+      <Selectormenu ></Selectormenu>
+      </div>
+      
+      </div>
     
     
     

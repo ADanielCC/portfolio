@@ -30,6 +30,13 @@ export default class Selectormenu extends Component{
 
     return(
     <div>
+      <ol>
+        <li>Daniel.A</li>
+        <li>Projects</li>
+        <li>Skills</li>
+        <li>Contact</li>
+        
+      </ol>
 
     
     </div>)
