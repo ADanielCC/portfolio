@@ -2,6 +2,7 @@ import React, { Component, useCallback } from 'react';
 import { useRef } from 'react';
 
 
+
 import Header from '../header/header.jsx';
 import Contenthandler from '../contenthandler/contenthandler.jsx';
 import Footer from '../footer/footer.jsx';
@@ -9,6 +10,7 @@ import Footer from '../footer/footer.jsx';
 
 
 export default class Main extends Component{
+ 
 
   constructor(props)
   {
@@ -18,11 +20,10 @@ export default class Main extends Component{
 
   state = {
     currentContent: [],
-
-
-
-
+// not sure what to use here maybe for the scrolling
   }
+
+
 
 
   
@@ -30,16 +31,26 @@ export default class Main extends Component{
   
   }
 
+
+
   
   render(){
    
 
     return(
+      
     <div >
 
-      
+      const aboutRef = useRef()
          <Header></Header>
-         <Contenthandler></Contenthandler>
+         <Contenthandler 
+         
+        
+         
+         
+         
+         
+         ></Contenthandler>
          <Footer></Footer>
 
 
