@@ -1,5 +1,5 @@
 import React, { Component, useCallback } from 'react';
-import { useRef } from 'react';
+
 
 
 
@@ -9,8 +9,9 @@ import Footer from '../footer/footer.jsx';
 
 
 
+
 export default class Main extends Component{
- 
+
 
   constructor(props)
   {
@@ -19,11 +20,25 @@ export default class Main extends Component{
   }
 
   state = {
-    currentContent: [],
-// not sure what to use here maybe for the scrolling
+
+    contentId: ["splash","projects","skills","contact"],
+    currentContent: "splash",
+
+
   }
 
 
+
+
+
+
+  handleCurrentContent = (id) =>{
+    // let tmpId  = this.currentContent;
+
+   this.setState({currentContent:id})
+
+
+  }
 
 
   
@@ -41,7 +56,7 @@ export default class Main extends Component{
       
     <div >
 
-      const aboutRef = useRef()
+      
          <Header></Header>
          <Contenthandler 
          
