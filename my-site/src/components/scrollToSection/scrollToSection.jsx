@@ -5,6 +5,8 @@ function ScrollToSection({ sectionRef }) {
     sectionRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
+  
+
   return (
     <button onClick={scrollToSection}>
       Scroll to Section

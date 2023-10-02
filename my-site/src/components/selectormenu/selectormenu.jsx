@@ -11,6 +11,7 @@ export default class SelectorMenu extends Component{
   {
       super(props);
       this.handleScrollTo = this.handleScrollTo.bind(this);
+      
 
   }
 
@@ -24,8 +25,13 @@ export default class SelectorMenu extends Component{
   
   }
   handleScrollTo(ref) {
-    ref.current.scrollIntoView({ behavior: 'smooth' });
+    const element = ref.current;
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   }
+
+  
 
   
   render(){
@@ -37,7 +43,7 @@ export default class SelectorMenu extends Component{
         <ul className="font">
         <li
             className="hover-effect"
-            onClick={() => this.handleScrollTo(topRef)}
+            onClick={() => this.props.scrollToTop()}
           >
             Daniel.A
           </li>
