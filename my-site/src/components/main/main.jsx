@@ -60,17 +60,18 @@ export default class Main extends Component{
          contactRef={this.contactRef}>
          </Header>
 
-      <CustomScrollbar>
-      </CustomScrollbar>
-        <Contenthandler 
-          topRef={this.topRef}
-          aboutRef={this.aboutRef}
-          projectsRef={this.projectsRef}
-          contactRef={this.contactRef}>
-  
-         </Contenthandler> 
+        
+       
       
-
+          <Contenthandler
+            topRef={this.topRef}
+            aboutRef={this.aboutRef}
+            projectsRef={this.projectsRef}
+            contactRef={this.contactRef}
+          />
+       
+        
+        
       
          
          <Footer></Footer>

@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './customScrollBar.css';
 
-function CustomScrollbar() {
+function CustomScrollbar(props) {
+  const { topRef, aboutRef, projectsRef, contactRef, children } = props;
   const containerRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -9,19 +10,17 @@ function CustomScrollbar() {
     const container = containerRef.current;
 
     function handleScroll() {
-      const scrollTop = container.scrollTop;
-      const maxScrollHeight = container.scrollHeight - container.clientHeight;
-      const middlePosition = maxScrollHeight / 2;
-      const distanceFromMiddle = Math.abs(scrollTop - middlePosition);
+      // Access and use the provided refs for scroll calculations
+      const topSection = topRef.current;
+      const aboutSection = aboutRef.current;
+      const projectsSection = projectsRef.current;
+      const contactSection = contactRef.current;
 
-      // Calculate a scale value based on the distance from the middle
-      const scale = 1 + distanceFromMiddle / 100; // Adjust the factor as needed
-
-      // Update the scrollbar style with scaling and translation
-      container.style.setProperty('--scrollbar-scale', scale);
-      container.style.setProperty('--scrollbar-translate', scrollTop - middlePosition);
-
-      setScrollPosition(scrollTop);
+      // Calculate scroll position based on sections
+      // Add your scroll logic here
+      console.log('Scroll event triggered');
+      console.log('Top section ref:', topSection);
+      setScrollPosition(/* your calculated scroll position */);
     }
 
     container.addEventListener('scroll', handleScroll);
@@ -29,12 +28,12 @@ function CustomScrollbar() {
     return () => {
       container.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [topRef, aboutRef, projectsRef, contactRef]);
 
   return (
     <div className="custom-scrollbar-container" ref={containerRef}>
       <div className="custom-scrollbar">
-        {/* Your scrollable content here */}
+        {children}
       </div>
     </div>
   );
