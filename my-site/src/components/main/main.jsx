@@ -1,4 +1,4 @@
-import React, { Component, useCallback } from 'react';
+import React, { Component, useCallback, useRef } from 'react';
 
 
 
@@ -6,6 +6,7 @@ import React, { Component, useCallback } from 'react';
 import Header from '../header/header.jsx';
 import Contenthandler from '../contenthandler/contenthandler.jsx';
 import Footer from '../footer/footer.jsx';
+// import ScrollToSection from './ScrollToSection';
 
 
 
@@ -15,33 +16,22 @@ export default class Main extends Component{
 
   constructor(props)
   {
-      super(props);
+    super(props);
+    this.topRef = React.createRef();
+    this.aboutRef = React.createRef();
+    this.projectsRef = React.createRef();
+    this.contactRef = React.createRef();
 
   }
 
   state = {
 
-    contentId: ["splash","projects","skills","contact"],
-    currentContent: "splash",
+   
 
 
   }
 
 
-
-
-
-
-  handleCurrentContent = (id) =>{
-    // let tmpId  = this.currentContent;
-
-   this.setState({currentContent:id})
-
-
-  }
-
-
-  
   componentDidMount(){
   
   }
@@ -50,6 +40,10 @@ export default class Main extends Component{
 
   
   render(){
+
+    // const aboutRef = useRef(null);
+    // const projectsRef = useRef(null);
+    // const contactRef = useRef(null);
    
 
     return(
@@ -57,15 +51,16 @@ export default class Main extends Component{
     <div >
 
       
-         <Header></Header>
-         <Contenthandler 
+         <Header
+         topRef={this.topRef}
+         aboutRef={this.aboutRef}
+         projectsRef={this.projectsRef}
+         contactRef={this.contactRef}
          
-        
-         
-         
-         
-         
-         ></Contenthandler>
+         ></Header>
+         <Contenthandler >
+
+         </Contenthandler>
          <Footer></Footer>
 
 
