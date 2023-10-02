@@ -2,11 +2,6 @@ import React, { Component, useCallback } from 'react';
 import './contenthandler.css'
 
 
-
-
-
-
-
 export default class Contenthandler extends Component{
 
   constructor(props)
@@ -32,36 +27,55 @@ export default class Contenthandler extends Component{
     return(
     <div class="wrapper">
 
-      <div class="contentbox no-top-margin" id="splash">
+      <section 
+
+        class="contentbox no-top-margin"
+        id="top"
+        ref={this.props.topRef}
+        
+        >
+
       <h3>Ready for new and exiting projects</h3>
       
-      </div>
+      </section>
 
 
       
-      <div class="contentbox" id="projects">
+      <section 
+
+        class="contentbox" 
+        id="projects"     
+        ref={this.props.projectsRef}>
+
             <h3>Projects</h3>
             <div>
               <a href="">På god tass</a>
             </div>
-      </div>
+      </section>
 
-      <div class="contentbox" id ="skills">
-        <h3>Skills</h3>
+      <section  
+        class="contentbox"
+        id ="about"
+        ref={this.props.aboutRef}>
+        
+        <h3>About</h3>
 
         *Scrolling bar with react,html,css,bootstrap,angular etc"
 
-      </div>
+      </section>
 
       
-      <div class="contentbox" id="contact">
+      <section 
+        class="contentbox" 
+        id="contact"
+        ref={this.props.contactRef}>
 
           <h3>Contact info</h3>
           
           <div> <a href="https://github.com/ADanielCC">GIT</a></div>
           <div> <a href="mailto:daniel.adolfsson.93@gmail.com">Email</a></div>
      
-      </div>      
+      </section>      
     
     </div>)
   }

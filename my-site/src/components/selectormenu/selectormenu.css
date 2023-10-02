@@ -16,3 +16,10 @@ ul{
     list-style-type: none;
     /* hides the bullet style */
 }
+
+.selector-menu-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* Add any additional styling you need */
+  }

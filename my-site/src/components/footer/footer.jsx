@@ -1,5 +1,5 @@
 import React, { Component, useCallback } from 'react';
-import Selectormenu from '../selectormenu/selectormenu';
+import Selectormenu from '../selectormenu/selectorMenu';
 import './footer.css';
 
 
