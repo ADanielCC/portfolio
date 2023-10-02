@@ -17,8 +17,8 @@ class Header extends Component {
     return (
       <div>
         <div ref={this.topRef}>
-          <h1 className="header noselect">Daniel Adolfsson</h1> {/* Use className for class */}
-          <div className="selector noselect"> {/* Use className for class */}
+          <h1 className="header noselect">Daniel Adolfsson</h1> 
+          <div className="selector noselect">
             <SelectorMenu
               topRef={topRef}
               aboutRef={aboutRef}

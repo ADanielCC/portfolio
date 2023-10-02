@@ -34,24 +34,25 @@ export default class SelectorMenu extends Component{
     return(
       <div>
       <div className="prevent-select hide-bullet selector-menu-container">
-        <ul>
+        <ul className="font">
         <li
             className="hover-effect"
             onClick={() => this.handleScrollTo(topRef)}
           >
             Daniel.A
           </li>
-          <li
-            className="hover-effect"
-            onClick={() => this.handleScrollTo(aboutRef)}
-          >
-            About
-          </li>
+          
           <li
             className="hover-effect"
             onClick={() => this.handleScrollTo(projectsRef)}
           >
             Projects
+          </li>
+          <li
+            className="hover-effect"
+            onClick={() => this.handleScrollTo(aboutRef)}
+          >
+            About
           </li>
           <li
             className="hover-effect"

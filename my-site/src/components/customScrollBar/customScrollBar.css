@@ -1,0 +1,15 @@
+.custom-scrollbar-container{
+    background-color: red;
+    width: 50px;
+    height: 100%;
+    z-index: 999;
+    position: fixed;
+    right:0;
+
+}
+
+.custom-scrollbar{
+    background-color: #f0f0f0;
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+}

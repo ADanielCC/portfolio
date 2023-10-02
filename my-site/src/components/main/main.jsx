@@ -6,6 +6,7 @@ import React, { Component, useCallback, useRef } from 'react';
 import Header from '../header/header.jsx';
 import Contenthandler from '../contenthandler/contenthandler.jsx';
 import Footer from '../footer/footer.jsx';
+import CustomScrollbar from '../customScrollBar/customScrollBar';
 
 // import ScrollToSection from './ScrollToSection';
 
@@ -59,15 +60,16 @@ export default class Main extends Component{
          contactRef={this.contactRef}>
          </Header>
 
-
-          <Contenthandler 
+      <CustomScrollbar>
+      </CustomScrollbar>
+        <Contenthandler 
           topRef={this.topRef}
           aboutRef={this.aboutRef}
           projectsRef={this.projectsRef}
           contactRef={this.contactRef}>
   
          </Contenthandler> 
-         
+      
 
       
          

@@ -2,6 +2,9 @@ import React, { Component, useCallback } from 'react';
 import './contenthandler.css'
 
 
+
+
+
 export default class Contenthandler extends Component{
 
   constructor(props)
@@ -25,8 +28,9 @@ export default class Contenthandler extends Component{
    
 
     return(
-    <div class="wrapper">
+    <div className="wrapper">
 
+      <div className='section-wrapper'>
       <section 
 
         class="contentbox no-top-margin"
@@ -39,8 +43,6 @@ export default class Contenthandler extends Component{
       
       </section>
 
-
-      
       <section 
 
         class="contentbox" 
@@ -76,7 +78,10 @@ export default class Contenthandler extends Component{
           <div> <a href="mailto:daniel.adolfsson.93@gmail.com">Email</a></div>
      
       </section>      
+      </div>
     
+
+
     </div>)
   }
 
