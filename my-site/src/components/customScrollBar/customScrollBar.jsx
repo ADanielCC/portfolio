@@ -33,7 +33,7 @@ function CustomScrollbar(props) {
   return (
     <div className="custom-scrollbar-container" ref={containerRef}>
       <div className="custom-scrollbar">
-        {children}
+        {props}
       </div>
     </div>
   );
