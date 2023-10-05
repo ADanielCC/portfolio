@@ -26,11 +26,14 @@ class Header extends Component {
     return (
       <div>
         <div ref={this.topRef}>
-          <h1 className="header noselect">
+          <div className="header noselect color-changing-bg">
 
-            <div className='name-title'>
-              Daniel Adolfsson</div>
-          </h1>
+            <div className='name-title'>Daniel Adolfsson</div>       
+            
+            
+            <div className="titles">Title1 Title2 Title3 Title4</div>
+              
+          </div>
           <div className="selector noselect">
             <SelectorMenu
               scrollToTop={scrollToTop}
