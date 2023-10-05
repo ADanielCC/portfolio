@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './customScrollBar.css';
 
 function CustomScrollbar(props) {
-  const { topRef, aboutRef, projectsRef, contactRef, children } = props;
+  const { topRef, aboutRef, projectsRef, contactRef } = props;
   const containerRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -32,8 +32,8 @@ function CustomScrollbar(props) {
 
   return (
     <div className="custom-scrollbar-container" ref={containerRef}>
-      <div className="custom-scrollbar">
-        {children}
+      <div className="custom-scrollbar" style={{ maxHeight: '400px' }}>
+        {/* Your custom scrollbar content */}
       </div>
     </div>
   );
