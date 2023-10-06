@@ -28,12 +28,13 @@ class Header extends Component {
         <div ref={this.topRef}>
           <div className="header noselect color-changing-bg">
 
-            <div className='name-title'>Daniel Adolfsson</div>       
-            
-            
-            <div className="titles">Title1 Title2 Title3 Title4</div>
-              
+
+            <div className='title-wrapper slide-in-text'>
+              <div className='name-title'>Daniel Adolfsson</div>
+              <div className="titles">Coder Technician Bodybuilder Gamer</div>
+            </div>
           </div>
+
           <div className="selector noselect">
             <SelectorMenu
               scrollToTop={scrollToTop}
