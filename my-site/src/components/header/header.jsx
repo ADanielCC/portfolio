@@ -31,7 +31,7 @@ class Header extends Component {
 
             <div className='title-wrapper slide-in-text'>
               <div className='name-title'>Daniel Adolfsson</div>
-              <div className="titles">Coder Technician Bodybuilder Gamer</div>
+              <div className="titles">Junior Front-End developer</div>
             </div>
           </div>
 

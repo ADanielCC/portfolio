@@ -4,6 +4,7 @@
     width: 100%;
     top: 0;
     margin-top: 0;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,29 +63,6 @@
 
 
 
-
-
-@keyframes colorChange {
-    0% {
-        background-color: #007bff;
-        /* Initial color at 0% keyframe */
-    }
-
-    50% {
-        background-color: #ff6347;
-        /* Intermediate color at 50% keyframe */
-    }
-
-    100% {
-        background-color: #00cc66;
-        /* Final color at 100% keyframe */
-    }
-}
-
-.color-changing-bg {
-    animation: colorChange 15s infinite alternate;
-    /* Use the animation with alternate direction */
-}
 
 
 

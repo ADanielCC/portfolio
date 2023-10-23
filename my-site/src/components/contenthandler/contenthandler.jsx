@@ -31,7 +31,7 @@ export default class Contenthandler extends Component{
     <div className="wrapper">
 
       <div className='section-wrapper'>
-      <section 
+      {/* <section 
 
         class="contentbox no-top-margin"
         id="top"
@@ -41,7 +41,7 @@ export default class Contenthandler extends Component{
 
       <h3>Ready for new and exiting projects</h3>
       
-      </section>
+      </section> */}
 
       <section 
 
@@ -68,6 +68,7 @@ export default class Contenthandler extends Component{
 
       
       <section 
+        className='projects'
         class="contentbox" 
         id="contact"
         ref={this.props.contactRef}>
