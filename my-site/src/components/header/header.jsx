@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import SelectorMenu from '../selectormenu/selectorMenu';
+import scrollToTop from '../utils/scrollToTop'; // Import the utility function
+
 import './header.css';
 
 class Header extends Component {
