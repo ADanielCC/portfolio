@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import SelectorMenu from '../selectormenu/selectorMenu.jsx';
+import SelectorMenu from '../selectorMenu/selectorMenu.jsx';
 // import scrollToTop from '../utils/scrollToTop'; // Import the utility function
 
 import './header.css';

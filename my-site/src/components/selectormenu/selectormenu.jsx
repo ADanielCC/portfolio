@@ -1,5 +1,6 @@
 import React, { Component, useCallback, useRef } from 'react';
-import ScrollToSection from '../scrollToSection/scrollToSection';
+// import ScrollToSection from '../scrollToSection/scrollToSection';
+
 
 import './selectorMenu.css';
 
