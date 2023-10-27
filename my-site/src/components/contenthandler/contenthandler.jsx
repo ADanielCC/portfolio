@@ -1,7 +1,15 @@
-import React, { Component, useCallback } from 'react';
-import './contenthandler.css'
+import React, { Component } from 'react';
 
 
+
+
+
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faReact } from '@fortawesome/free-brands-svg-icons';
+import './contenthandler.css';
 
 
 
@@ -54,34 +62,52 @@ export default class Contenthandler extends Component {
 
 
             <div>
-              <h4>På God Tass</h4>
+              {/* <h4>På God Tass</h4> */}
               <a href="https://leafy-duckanoo-bd3caf.netlify.app/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/godtasslogo.png"
                   className="godtasslogo"
-                  alt="Logo"
+                  alt="På God Tass"
                 />
               </a>
+
               <p>
                 "På God Tass" is a heartwarming project that I had the privilege to work on. It's a dog hospice located in Lundsbrunn, dedicated to providing loving care and comfort to our furry friends.
               </p>
+
               <p>
                 I was the lead developer for this project, and I utilized a combination of technologies such as React, HTML, and CSS to create an engaging and informative website. Some of the key features include:
               </p>
+
               <ul>
-                <li>Interactive user interface</li>
-                <li>Information on services provided</li>
-                <li>Contact details and location map</li>
+                <li>One page layout</li>
+                <li>Information on services provided both in English and Swedish</li>
+                <li>Contact details and location details with map</li>
+                <li>Responsive CSS styling for use with diffrent devices</li>
               </ul>
+
               <p>
                 This was my first solo project and it allowed me to deepen my skills in front-end development and improve my ability to work with React. It was both a rewarding and educational experience.
               </p>
+
               <p>
-                You can explore the project on this   
-                <a href="https://leafy-duckanoo-bd3caf.netlify.app/" target="_blank" rel="noopener noreferrer">mirror site</a>.
+                You can explore the project on this
+                <a href="https://leafy-duckanoo-bd3caf.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  mirror site</a>.
+
               </p>
               <p>
-                If you're interested in the source code, you can find it on my <a href="https://github.com/ADanielCC/goodboi" target="_blank" rel="noopener noreferrer">GitHub repository</a>.
+
+                If you're interested in the source code, you can find it on my
+                <FontAwesomeIcon icon={faGithub} />
+                
+                <a href="https://github.com/ADanielCC/goodboi"
+                  target="_blank"
+                  rel="noopener noreferrer">
+
+                  GitHub repository</a>.
               </p>
             </div>
 
