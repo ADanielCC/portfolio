@@ -17,10 +17,10 @@ import './contenthandler.css';
 
 export default class Contenthandler extends Component {
 
-  constructor(props) {
-    super(props);
+  // constructor(props) {
+  //   super(props);
 
-  }
+  // }
 
   state = {
 
