@@ -23,6 +23,12 @@
 /* .project-tags{
    border: 1px black solid; 
 } */
+
+
+.gitHubTag{
+    color: black;
+}
+
 .HTMLTag{
     color: rgb(245, 94, 24);
 }
@@ -32,11 +38,12 @@
 .reactTag{
     color: blue;
 }
+
 .tag {
     display: inline-block;
     background-color: rgb(216, 216, 216);
     font-size: 20px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     border-radius: 15px;
     padding: 5px 10px; /* Adjust padding as needed */
     margin: 5px; /* Add margin between tags */

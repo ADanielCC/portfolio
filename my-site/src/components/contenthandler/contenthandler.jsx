@@ -110,7 +110,9 @@ export default class Contenthandler extends Component {
                   rel="noopener noreferrer">
 
                   GitHub repository</a>.
-                  <FontAwesomeIcon icon={faGithub} />
+                  <FontAwesomeIcon 
+                  className='gitHubTag tag'
+                  icon={faGithub} />
               </p>
 
               <div className='project-tags'>
