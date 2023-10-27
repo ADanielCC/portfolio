@@ -7,8 +7,10 @@ import React, { Component } from 'react';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faServer } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
+import { faCss3Alt,faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import './contenthandler.css';
 
 
@@ -91,7 +93,7 @@ export default class Contenthandler extends Component {
               </p>
 
               <p>
-                You can explore the project on this
+                You can explore the project on this 
                 <a href="https://leafy-duckanoo-bd3caf.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer">
@@ -100,15 +102,35 @@ export default class Contenthandler extends Component {
               </p>
               <p>
 
-                If you're interested in the source code, you can find it on my
-                <FontAwesomeIcon icon={faGithub} />
+                If you're interested in the source code, you can find it on my  
+                
                 
                 <a href="https://github.com/ADanielCC/goodboi"
                   target="_blank"
                   rel="noopener noreferrer">
 
                   GitHub repository</a>.
+                  <FontAwesomeIcon icon={faGithub} />
               </p>
+
+              <div className='project-tags'>
+                <div className='HTMLTag tag'
+                >&lt;HTML <FontAwesomeIcon icon={faHtml5} /> &gt;
+                </div>
+
+                <div className='CSSTag tag'>
+                  #CSS <FontAwesomeIcon icon={faCss3Alt} />#
+                </div>
+
+                <div className='reactTag tag'>
+                  React <FontAwesomeIcon icon={faReact}/> 
+                </div>
+
+                <div className='hostingTag tag'
+                >Netlify hosting <FontAwesomeIcon icon={faServer}/> 
+
+                </div>
+              </div>
             </div>
 
 
