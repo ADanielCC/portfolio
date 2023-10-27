@@ -1,4 +1,4 @@
-import React, { Component, useCallback, useRef } from 'react';
+import React, { Component } from 'react';
 // import ScrollToSection from '../scrollToSection/scrollToSection';
 
 
@@ -38,7 +38,7 @@ export default class SelectorMenu extends Component{
 
   
   render(){
-    const {topRef, aboutRef, projectsRef, contactRef } = this.props;
+    const {aboutRef, projectsRef, contactRef } = this.props;
 
     return(
       <div>

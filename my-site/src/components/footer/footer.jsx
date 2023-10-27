@@ -1,5 +1,5 @@
-import React, { Component, useCallback } from 'react';
-import Selectormenu from '../selectorMenu/selectorMenu';
+import React, { Component} from 'react';
+// import Selectormenu from '../selectorMenu/selectorMenu';
 import './footer.css';
 
 
@@ -9,11 +9,11 @@ import './footer.css';
 
 export default class Footer extends Component{
 
-  constructor(props)
-  {
-      super(props);
+  // constructor(props)
+  // {
+  //     super(props);
 
-  }
+  // }
 
   state = {
 

@@ -4,7 +4,7 @@ import './customScrollBar.css';
 function CustomScrollbar(props) {
   const { topRef, aboutRef, projectsRef, contactRef } = props;
   const containerRef = useRef(null);
-  const [scrollPosition, setScrollPosition] = useState(0);
+  const [setScrollPosition] = useState(0);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -12,9 +12,9 @@ function CustomScrollbar(props) {
     function handleScroll() {
       // Access and use the provided refs for scroll calculations
       const topSection = topRef.current;
-      const aboutSection = aboutRef.current;
-      const projectsSection = projectsRef.current;
-      const contactSection = contactRef.current;
+      // const aboutSection = aboutRef.current;
+      // const projectsSection = projectsRef.current;
+      // const contactSection = contactRef.current;
 
       // Calculate scroll position based on sections
       // Add your scroll logic here

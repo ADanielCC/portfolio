@@ -6,9 +6,9 @@ import SelectorMenu from '../selectorMenu/selectorMenu';
 import './header.css';
 
 class Header extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
 
 
