@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../header/header.jsx';
-import CustomScrollbar from '../customScrollBar/customScrollBar';
+// import CustomScrollbar from '../customScrollBar/customScrollBar';
 import Contenthandler from '../contenthandler/contenthandler.jsx';
 import Footer from '../footer/footer.jsx';
 import './main.css';
@@ -19,7 +19,7 @@ export default class Main extends Component {
   componentDidMount() {}
 
   render() {
-    const { topRef, aboutRef, projectsRef, contactRef } = this.props;
+    // const { topRef, aboutRef, projectsRef, contactRef } = this.props;
 
     return (
       <div className='main'>
