@@ -9,3 +9,13 @@
 .projects {
     margin-top: 0;
 }
+.godtasslogo{
+    
+    max-height: 200px; /* This will maintain the aspect ratio */
+    display: block;
+    user-select: none;
+    object-fit: contain;
+    left: 0;
+   
+    
+    }

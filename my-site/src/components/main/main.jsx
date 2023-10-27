@@ -3,6 +3,7 @@ import Header from '../header/header.jsx';
 import CustomScrollbar from '../customScrollBar/customScrollBar';
 import Contenthandler from '../contenthandler/contenthandler.jsx';
 import Footer from '../footer/footer.jsx';
+import './main.css';
 
 export default class Main extends Component {
   constructor(props) {
@@ -21,7 +22,7 @@ export default class Main extends Component {
     const { topRef, aboutRef, projectsRef, contactRef } = this.props;
 
     return (
-      <div>
+      <div className='main'>
         <Header
           topRef={this.topRef}
           projectsRef={this.projectsRef}
