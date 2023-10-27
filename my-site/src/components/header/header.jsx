@@ -28,7 +28,7 @@ class Header extends Component {
         <div ref={this.topRef}>
           <div className="header noselect color-changing-bg">
 
-
+{/* hello */}
             <div className='title-wrapper slide-in-text'>
               <div className='name-title'>Daniel Adolfsson</div>
               <div className="titles">Junior Front-End developer</div>
