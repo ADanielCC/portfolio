@@ -8,7 +8,7 @@ import React, { Component } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faServer } from '@fortawesome/free-solid-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+// import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { faCss3Alt,faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import './contenthandler.css';
@@ -109,10 +109,10 @@ export default class Contenthandler extends Component {
                   target="_blank"
                   rel="noopener noreferrer">
 
-                  GitHub repository</a>.
-                  <FontAwesomeIcon 
+                  GitHub</a>.
+                  {/* <FontAwesomeIcon 
                   className='gitHubTag tag'
-                  icon={faGithub} />
+                  icon={faGithub} /> */}
               </p>
 
               <div className='project-tags'>

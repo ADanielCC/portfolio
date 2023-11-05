@@ -48,7 +48,7 @@ export default class SelectorMenu extends Component{
             className="hover-effect"
             onClick={() => this.props.scrollToTop()}
           >
-            Daniel.A
+            Home
           </li>
           
           <li

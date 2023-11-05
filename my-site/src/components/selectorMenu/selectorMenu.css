@@ -9,7 +9,8 @@
 
 .hover-effect:hover{
     transition: .35s;
-    color: red !important;
+    color: rgb(86, 159, 253)!important;
+    
 }
 
 ul{

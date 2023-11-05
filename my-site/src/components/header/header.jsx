@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import SelectorMenu from '../selectorMenu/selectorMenu';
+import SideBar from '../sidebar/sideBar';
 // import scrollToTop from '../utils/scrollToTop'; // Import the utility function
 
 import './header.css';
@@ -33,8 +34,9 @@ class Header extends Component {
 
 {/* hello */}
             <div className='title-wrapper slide-in-text'>
-              <div className='name-title'>Daniel Adolfsson</div>
-              <div className="titles">Junior Front-End developer</div>
+              <div className='name-title'>Hey, I'm Daniel Adolfsson</div>
+              <div className="titles">A Frontend developer dedicated to crafting the cutting edge webpages of the future</div>
+              <SideBar className="sidebar"></SideBar>
             </div>
           </div>
 

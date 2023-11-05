@@ -1,0 +1,15 @@
+.no-link-style {
+    color: inherit; /* Inherit the color from their parent element */
+    text-decoration: none; /* Remove underline (if present) */
+  }
+  
+  /* Style the FontAwesome icons on hover */
+  .no-link-style:hover {
+    transition: 0.7s;
+    color: rgb(86, 159, 253); /* Change color on hover if needed */
+  }
+
+  .icon{
+    margin: 5px;
+    font-size: 35px;
+  }
