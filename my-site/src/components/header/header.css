@@ -60,20 +60,6 @@
     /* Standard syntax */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes slideIn {
     0% {
       transform: translateX(-100%); /* Start from the left, outside the viewport */
@@ -95,3 +81,8 @@
     overflow: hidden; /* Hide overflowing text */
     animation: slideIn 1s ease-in; /* Adjust the animation duration and timing function as needed */
   }
+
+.sidebar{
+  float: left;
+
+}

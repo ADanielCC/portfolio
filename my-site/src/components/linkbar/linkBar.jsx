@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 // import { faCss3Alt,faHtml5 } from '@fortawesome/free-brands-svg-icons';
-import './sideBar.css';
+import './linkBar.css';
 
 
 
