@@ -30,13 +30,13 @@ class Header extends Component {
     return (
       <div>
         <div ref={this.topRef}>
-          <div className="header noselect color-changing-bg bg">
+          <div className="header noselect">
 
 {/* hello */}
             <div className='title-wrapper slide-in-text'>
               <div className='name-title'>Hey, I'm Daniel Adolfsson</div>
-              <div className="titles">A Frontend developer dedicated to crafting the cutting edge web solutions of the future</div>
-              <LinkBar className="sidebar"></LinkBar>
+              <div className="titles">A Frontend developer based in Sweden, Stockholm dedicated to crafting the cutting edge web solutions of the future</div>
+              <LinkBar className="linkbar"></LinkBar>
             </div>
           </div>
 

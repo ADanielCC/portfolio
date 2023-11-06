@@ -35,8 +35,10 @@ export default class Footer extends Component{
 
 
     
-      <div class="footer">
-        Footer
+      <div className="footer">
+        <p className='licence'>
+        @ danieladolfsson.com - 2023
+        </p>
       </div>
     
     

@@ -1,0 +1,32 @@
+.project-logo{
+    max-height: 50px; /* This will maintain the aspect ratio */
+    display: block;
+    user-select: none;
+    object-fit: contain;
+    left: 0;
+    margin: 15px;
+}
+.project-screenshot{
+    max-height: 200px; /* This will maintain the aspect ratio */
+    display: block;
+    user-select: none;
+    object-fit: contain;
+    left: 0;
+    border-radius: 15px;
+    border: 2px black solid;
+    transition: transform 0.4s;
+    transform: translateY(0%);
+}
+
+  
+  .project-screenshot:hover {
+    transform: scale(105%);
+  }
+
+  .inline{
+    display: inline-block;
+  }
+
+  .project-description{
+    width: 50%;
+  }

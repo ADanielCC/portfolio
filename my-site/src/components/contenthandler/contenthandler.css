@@ -1,6 +1,8 @@
 .contentbox{
-    margin-top: 45%;
-    margin-bottom: 15%;
+    /* margin-top: 15%;
+    margin-bottom: 15%; */
+    margin: 0;
+    height: 100vh;
     padding-left: 15px;
 }
 .no-top-margin{
