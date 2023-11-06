@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './contenthandler.css';
 
 //font awesome imports
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faServer } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faServer } from '@fortawesome/free-solid-svg-icons'
 // import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faReact } from '@fortawesome/free-brands-svg-icons';
-import { faCss3Alt, faHtml5 } from '@fortawesome/free-brands-svg-icons';
+// import { faReact } from '@fortawesome/free-brands-svg-icons';
+// import { faCss3Alt, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 
 import ProjectViewer from '../projectViewer/projectViewer';
 

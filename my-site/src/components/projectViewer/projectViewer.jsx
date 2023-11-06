@@ -28,7 +28,7 @@ export default class ProjectViewer extends Component {
                         rel="noopener noreferrer"
                         className='inline'
                         >
-                        <img src={screenShot} className="project-screenshot" /></a>
+                        <img src={screenShot} alt="project screenshot" className="project-screenshot" /></a>
                     <h3 className="project-title">{title}</h3>
                 </div>
 
